@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GameActivity">
+
+    <Button
+        android:id="@+id/btnPokemonGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Launch Pokemon Game" />
+
+    <Button
+        android:id="@+id/btnCallContactGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Launch Call Contact Game" />
+
+    <Button
+        android:id="@+id/btnTextContactGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Launch Text Contact Game" />
+
+    <Button
+        android:id="@+id/btnSlowMovementGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Launch Slow Movement Game" />
+
+    <Button
+        android:id="@+id/btnShakeGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Launch Shake Game" />
+
+    <Button
+        android:id="@+id/btnLightGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Launch Light Game" />
+
+    <Button
+        android:id="@+id/btnFastPassGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Launch Fast Pass Game" />
+
+    <Button
+        android:id="@+id/btnChooseGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Launch Choose Game" />
+
+    <Button
+        android:id="@+id/btnTruthOrDareGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Launch Truth or Dare Game" />
+
+    <Button
+        android:id="@+id/btnOrientationGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Launch Orientation Game" />
+
+    <Button
+        android:id="@+id/btnWeatherGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Launch Weather Game" />
+
+</LinearLayout>

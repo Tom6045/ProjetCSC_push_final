@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="game_prefs">
+
+
+    <CheckBoxPreference
+        android:title="Contact game"
+        android:summaryOff="Do not play with"
+        android:summaryOn="Play with"
+        android:key="playWithContactGame" />
+
+    <CheckBoxPreference
+        android:title="Text contact game"
+        android:summaryOff="Do not play with"
+        android:summaryOn="Play with"
+        android:key="playWithTextContactGame"
+        android:dependency="playWithContactGame"/>
+
+    <CheckBoxPreference
+        android:title="Call contact game"
+        android:summaryOff="Do not play with"
+        android:summaryOn="Play with"
+        android:key="playWithCallContactGame"
+        android:dependency="playWithContactGame"
+        android:defaultValue="true"/>
+
+    <CheckBoxPreference
+        android:title="Dev mode"
+        android:summaryOff="Dev mode Off"
+        android:summaryOn="Dev mode On"
+        android:key="devModeStatus" />
+
+</PreferenceScreen>

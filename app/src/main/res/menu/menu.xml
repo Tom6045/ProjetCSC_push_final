@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Pause"
+        android:icon="@drawable/ic_pause"
+        android:id="@+id/pause"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:title="Scores"
+        android:icon="@drawable/ic_scores"
+        android:id="@+id/scores"
+        app:showAsAction="always"
+    />
+
+    <item
+        android:title="Options"
+        android:icon="@drawable/ic_opt"
+        android:id="@+id/options"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        android:id="@+id/home"
+        app:showAsAction="always"
+        />
+</menu>

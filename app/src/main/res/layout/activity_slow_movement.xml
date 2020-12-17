@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SlowMovementActivity">
+
+    <include
+        layout="@layout/appbar"/>
+
+
+    <LinearLayout
+        android:id="@+id/lySlowMovement"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvSlowMovementTarget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Slowly..."
+            android:textSize="60sp" />
+
+        <TextView
+            android:id="@+id/tvSlowMovementCountdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="120sp" />
+
+        <TextView
+            android:id="@+id/tvSlowMovementReady"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:text="Get ready!!"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="70sp" />
+
+        <Button
+            android:id="@+id/btnSlowMovementFinish"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="300dp"
+            android:text="I got it !"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSlowMovementNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:textSize="60dp"/>
+
+</LinearLayout>
